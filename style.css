@@ -1,0 +1,403 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Red Hat Mono', monospace;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background: url(images/restaurant.jpg);
+    background-size:cover;
+    
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+span{
+    color: red;
+}
+nav ul{
+    align-items: center;
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px 20px;
+    margin-left: 100px;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    size: 50px;
+   
+}
+p{
+    color: whitesmoke;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 50px 0;
+   
+}
+
+.col-2 h2{
+    font-size: 35px;
+    margin: 20px 0;
+    line height: 100px;
+    color:white;
+}
+.bttn{
+    display: inline-block;
+    background-color:red;
+    color: whitesmoke;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+   transition:background 0.5s;
+}
+.btn{
+    display: inline-block;
+    background-color:black;
+    color: whitesmoke;
+    padding: 8px 30px;
+    margin: 20px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.button{
+    display: inline-block;
+    background-color:whitesmoke;
+    color: black;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: darkgray;
+}
+.bttn:hover{
+    background: darkgray;
+}
+.button:hover{
+    background-color: azure;
+}
+
+.header.row{
+    margin-top: 70px;
+}
+.delivery h3{
+    margin-top: 2%;
+}
+.delivery img{
+    margin: 5%;
+}
+.categories{
+    margin: 70px 0;
+
+}
+.col-3{
+    flex-basis:30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+.col-3 img{
+    width: 100%;
+}
+.menu{
+    position: relative;
+    width: 1200px;
+    height: 300px;
+}
+.menu h3{
+    margin-left: 45%;
+}
+.menu .box{
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(300px - 30px);
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px ;
+    background: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 2);
+}
+.menu .box .img{
+margin-top: -100px;
+margin-left: -60px;
+width: 100px;
+}
+.menu .box:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+.menu .box .img :hover{
+    transform: translateY(-5px);
+}
+.aboutus{
+    background-color: antiquewhite;
+    margin-top: 100px;
+}
+.aboutus h2{
+    margin-left: 45.5%;
+    padding: 1.5%;
+    margin-top: 10%;
+}
+.aboutus p{
+    color: brown;
+    margin-left: 46%;
+    margin-top: 2%;
+}
+.aboutus img{
+    width: 35%;
+    margin-top: -20%;
+    margin-left: 3%;
+}
+.address .box{
+    position: relative;
+    width: calc(350px - 30px);
+    height: calc(220px - 30px);
+    float: left;
+    margin-left: 15%;
+    margin-top:-10%;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px ;
+    background: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 2);
+}
+.aboutus .bttn{
+    margin-left: 10%;
+    cursor: pointer;
+}
+.address h4{
+    margin-left: 35%;
+    margin-top: 10px;
+}
+.address p{
+    margin-left: 6%;
+}
+.aboutus .btn{
+    cursor: pointer;
+}
+
+.completemenu h2{
+    margin-top: 10%;
+    margin-left: 38%;
+}
+.completemenu .img{
+    margin: 5%;
+    float: right;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 20px ;
+   
+  
+}
+.contact{
+    width: 500px;
+    background-color: #fff;
+    box-shadow:0 0 20px 0 #999;
+    top:560%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+.contact h3{
+    margin-left: 35%;
+    margin-top: 5%;
+}
+form{
+    margin: 35px;
+}
+.input-field{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+}
+.textarea{
+    width: 400px;
+    height: 140px;
+    margin-top: 20px;
+    padding-left: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+}
+.contact .btn{
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: #47c35a;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+.exclusive{
+    background: radial-gradient(white,orange);
+    margin-top: 70%;
+    padding: 150px 0;
+   
+}
+.sale .sale-h1{
+    margin-left: 40%;
+    margin-top: -20%;
+    line height: 60px;
+
+}
+.sale p{
+    margin-left: 40%;
+    color: black;
+    font-size: 25px;
+}
+.sale img{
+    margin-left: 10%;
+    margin-top: -5%;
+}
+.sale img{
+   width: 25%;
+    border-radius: 10px;
+}
+.sale-p{
+    margin-left: 1%;
+    color: black;
+    margin-top: 3%;
+    font-size: 25px;
+}
+.sale .bttn{
+    margin-left: 40%;
+    cursor: pointer;
+}
+.noodles{
+    background: radial-gradient(white,wheat);
+    margin-top: 58%;
+    padding: 120px 0;
+   
+}
+.bestnoodles-h1{
+    margin-left: 40%;
+    margin-top: -20%;
+    line height: 60px;
+
+}
+.bestnoodles img{
+    margin-right: 7%;
+    margin-top: -5%;
+    width: 25%;
+     border-radius: 10px;
+ }
+ .bestnoodles-h1{
+    margin-left: 10%;
+ }
+ .bestnoodles .bttn{
+    margin-left: 10%;
+    cursor: pointer;
+ }
+ .bestnoodles .btn{
+    cursor: pointer;
+ }
+ .bestnoodles p{
+    margin-left: 10%;
+    color: black;
+ }
+.footer{
+    background:black;
+    color: aliceblue;
+    margin-top: 10%;
+    margin-bottom: -13%;
+    font-size: 14;
+    padding: 60px 0 20px;
+    }
+    .footer p{
+        color:azure
+    }
+    .footer h3{
+        color: azure;
+        margin-bottom: 20px;
+    }
+    .footer-col1,.footer-col2,.footer-col3,.footer-col4{
+    min-width: 250px;
+    margin-right: 20px;
+    }
+    .footer-col1{
+        flex-basis: 30%;
+    }
+    .footer-col2{
+        flex: 1;
+        text-align: center;
+    }
+    .footer-col2 img{
+        width: 180px;
+        margin-bottom: 20px;
+    }
+    .footer-col3,.footer-col4{
+        flex-basis: 12%;
+        text-align: center;
+    
+    }
+    ul{
+        list-style: none;
+    }
+   
+    .applogo{
+        margin-top: 20px;
+    }
+    .applogo img{
+        width: 140px;
+    }
+ .completemenu .box{
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(350px - 30px);
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px ;
+    background: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 2);
+    cursor: pointer;
+ }
+ .completemenu .box .img{
+    margin-top: 15%;
+
+ }
+
+ .completemenu .box .img1{
+    margin-top: 7%;
+    margin-left: 30px;
+ }
